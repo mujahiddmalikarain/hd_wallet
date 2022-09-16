@@ -121,14 +121,14 @@ class _HomeScreenState extends State<HomeScreen> {
               alignment: Alignment.center,
               child: Column(
                 children:  [
-                  Text(
-                    "Balance",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 25,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
+                  // Text(
+                  //   "Balance",
+                  //   style: TextStyle(
+                  //     color: Colors.white,
+                  //     fontSize: 25,
+                  //     fontWeight: FontWeight.bold,
+                  //   ),
+                  // ),
                   Padding(
                     padding: EdgeInsets.symmetric(vertical: 10),
                     child: Text(ethUtils.balance.toString(), style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),)
